@@ -1,0 +1,141 @@
+@import "lib.less";
+
+#footer {
+  margin-top:10px;
+	color: @textColorTertiary;
+	background:#fff;
+	padding:60px 0px 60px 0px;
+  a{
+    text-decoration: none;
+  } // end a
+
+  a:link, a:visited{
+    text-decoration: none;
+    padding: 0;
+    font-family: @baseFontFamily;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: @textColorTertiary;
+    -moz-transition: text-shadow 0.2s ease-out;
+    -webkit-transition: text-shadow 0.2s ease-out;
+  }// end a:link
+
+  a:hover, a:active{
+    text-decoration: none;
+    text-shadow: 0 0 0, 0 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-transition: text-shadow 0.1s ease-out;
+    -webkit-transition: text-shadow 0.1s ease-out;
+  }
+
+  #copyright {
+    margin-left:10px;
+
+    ul{
+      margin:0;
+      padding:0px;
+      width:400px;
+      .clearfix();
+      li{
+        margin:0 10px 0 0px;
+        display:inline-block;
+        float:left;
+      }
+    }
+
+
+    #footer-links {
+      margin:0px 0px 10px 0px;
+      a{
+        font-weight:bold;
+      }
+    }
+
+
+  }
+
+
+}
+/*footer-wrapper*/
+#footer-wrapper{
+  width:900px;
+  margin:auto;
+  padding:0px 0px 0px 60px;
+  .clearfix();
+}
+
+.footer-content{
+  margin:0px 0px 0px 10px;
+  float:left;
+}
+#footer-logo{
+  margin:20px 70px 0px 0px;
+}
+
+/*sub-footer*/
+
+#sub-footer {
+  #sub-footer-contents {
+    width:240px;
+
+    ul{
+      margin: 10px 0px 10px 0px;
+      left: auto;
+      li{
+        list-style: none;
+        float: left;
+        padding: 0;
+        width:60px;
+        margin: 0px 20px 0px 0px;
+        background: none;
+      }// end li
+    }// end ul
+
+    ul {
+        .clearfix();
+    }
+  } // end sub-footer-contetn
+}
+
+@media only screen and (min-width: @breakTablet) and (max-width: @breakDesktop) {
+  #footer-wrapper{
+    width: 95%;
+    padding-left: 5%;
+  }
+
+  #footer-logo {
+    margin-right: 20px;
+  }
+
+  #sub-footer #sub-footer-contents {
+    width: 150px;
+  }
+
+  #sub-footer #sub-footer-contents ul li {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: @breakTablet) {
+  #footer-wrapper{
+    width: 430px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: @breakMobileLandscape) {
+  #footer-wrapper{
+    width: 240px;
+    margin: auto;
+    padding: 0;
+  }
+  #footer-logo {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  #footer #copyright ul,
+  #footer #copyright p {
+    width: 220px;
+  }
+}
