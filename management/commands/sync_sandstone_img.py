@@ -13,5 +13,7 @@ class Command(NoArgsCommand):
         self.options = options
         img_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/img/sandstone/'
         copy_tree('media/img/sandstone', img_path)
+        img_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/img/tabzilla/'
+        copy_tree('media/img/tabzilla', img_path)
 
 

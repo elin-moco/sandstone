@@ -22,4 +22,8 @@ class Command(NoArgsCommand):
         copy_tree('media/css/sandstone', css_path)
         copy_tree('media/fonts', fonts_path)
 
+        css_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/css/'
+        shutil.copy('media/css/tabzilla.less', css_path)
+        shutil.copy('media/css/tabzilla.less.css', css_path)
+
 
