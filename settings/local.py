@@ -7,3 +7,6 @@ LOCAL_TECH_URL = 'tech.inspire.mozilla.com.tw'
 LOCAL_MYFF_URL = 'stage.myfirefox.com.tw'
 LOCAL_FFCLUB_URL = 'ffclub.inspire.mozilla.com.tw'
 
+DEV = True
+DEBUG = True
+TEMPLATE_DEBUG = True

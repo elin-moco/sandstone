@@ -5,8 +5,6 @@ ROOT = None
 
 # Django settings for sandbox project.
 
-DEV = DEBUG = True
-TEMPLATE_DEBUG = DEBUG
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -90,3 +88,7 @@ LOCAL_FFCLUB_URL = FFCLUB_URL = 'firefox.club.tw'
 
 
 DEFAULT_FILTERS['escape_js_vars'] = escape_js_variables
+
+DEV = True
+DEBUG = True
+TEMPLATE_DEBUG = True

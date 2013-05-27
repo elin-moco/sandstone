@@ -1,4 +1,4 @@
-import settings
+from sandstone import settings
 
 
 def urls(request):
