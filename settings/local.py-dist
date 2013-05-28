@@ -10,7 +10,6 @@ try:
     from settings.local import LOCAL_MOCO_URL
 except ImportError:
     pass
-
 try:
     from settings.local import LOCAL_BLOG_URL
 except ImportError:

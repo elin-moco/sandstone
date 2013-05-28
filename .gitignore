@@ -2,3 +2,5 @@
 *.pot
 *.pyc
 local_settings.py
+settings/local.py
+media/js/sandstone/replace_urls.js
