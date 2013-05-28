@@ -9,7 +9,6 @@ import sandstone
 class Command(NoArgsCommand):
     help = 'Update render sandstone javascript files.'
     option_list = NoArgsCommand.option_list
-    js_files = ('replace_urls.js', 'tabzilla.js')
 
     def handle_noargs(self, **options):
         self.options = options
