@@ -502,6 +502,12 @@ NavMain.closeSmallSubmenu = function(menu)
     });
 };
 
+/* monkey patch for disabling submeny */
+NavMain.handleSubmenuClick = function(e)
+{
+    window.location = $(this).attr('data-old-href');
+};
+
 $(document).ready(NavMain.init);
 
 })();
