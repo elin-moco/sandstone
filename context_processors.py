@@ -1,4 +1,4 @@
-from sandstone import settings
+from bedrock.sandstone import settings
 
 
 def urls(request):

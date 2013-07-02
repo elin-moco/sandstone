@@ -3,7 +3,7 @@ import glob
 import os
 import shutil
 from django.core.management.base import NoArgsCommand
-import sandstone
+import bedrock.sandstone
 
 
 class Command(NoArgsCommand):
@@ -12,8 +12,8 @@ class Command(NoArgsCommand):
 
     def handle_noargs(self, **options):
         self.options = options
-        css_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/css/sandstone/'
-        fonts_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/fonts/'
+        css_path = os.path.dirname(os.path.realpath(bedrock.sandstone.__file__)) + '/media/css/sandstone/'
+        fonts_path = os.path.dirname(os.path.realpath(bedrock.sandstone.__file__)) + '/media/fonts/'
         # if not os.path.exists(css_path):
         #     os.makedirs(css_path)
         # for filename in glob.glob(os.path.join('media/css/sandstone', '*.css')):
@@ -22,7 +22,7 @@ class Command(NoArgsCommand):
         copy_tree('media/fonts', fonts_path)
 
         # css_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/css/'
-        shutil.copy('media/css/tabzilla.less', css_path)
-        shutil.copy('media/css/tabzilla.less.css', css_path)
+        shutil.copy('media/css/tabzilla/tabzilla.less', css_path)
+        shutil.copy('media/css/tabzilla/tabzilla.less.css', css_path)
 
 

@@ -438,6 +438,9 @@ var Tabzilla = (function (Tabzilla) {
                 <a href="//mozilla.com.tw/about/careers/" title="工作機會">工作機會</a>\
               </li>\
               <li>\
+                <a href="//mozilla.com.tw/about/intern/" title="工作機會">實習機會</a>\
+              </li>\
+              <li>\
                 <a href="//mozilla.com.tw/about/contact/" title="聯絡資訊">聯絡資訊</a>\
               </li>\
               <li>\

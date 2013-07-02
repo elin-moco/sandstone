@@ -3,7 +3,7 @@ import glob
 import os
 import shutil
 from django.core.management.base import NoArgsCommand
-import sandstone
+import bedrock.sandstone
 
 
 class Command(NoArgsCommand):
@@ -12,11 +12,11 @@ class Command(NoArgsCommand):
 
     def handle_noargs(self, **options):
         self.options = options
-        js_path = os.path.dirname(os.path.realpath(sandstone.__file__)) + '/media/js/sandstone/'
+        js_path = os.path.dirname(os.path.realpath(bedrock.sandstone.__file__)) + '/media/js/sandstone/'
         if not os.path.exists(js_path):
             os.makedirs(js_path)
 
-        shutil.copy('media/js/nav-main-resp.js', js_path)
+        shutil.copy('media/js/base/nav-main-resp.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-all.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-min.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-nav-all.js', js_path)

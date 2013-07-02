@@ -1,5 +1,5 @@
 import os
-from sandstone.utils import escape_js_variables
+from bedrock.sandstone.utils import escape_js_variables
 
 ROOT = None
 
