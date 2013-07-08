@@ -107,7 +107,8 @@
   content: ".";
 }
 /* Newsletter form fix */
-#footer-email-form .field-format, #newsletter-form .field-format {
+#footer-email-form .field-format,
+#newsletter-form .field-format {
   display: none;
 }
 @media only screen and (min-width: 760px) and (max-width: 1000px) {

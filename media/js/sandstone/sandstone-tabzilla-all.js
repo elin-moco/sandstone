@@ -352,11 +352,10 @@ var Tabzilla = (function (Tabzilla) {
     var content = '<div id="tabzilla-panel" class="close-nav" tabindex="-1">\
   <div id="tabzilla-contents">\
     <div id="tabzilla-promo">\
-      <div id="tabzilla-promo-ff-android" class="snippet"> <!--ex: promo-firefox, promo-MWC, promo-flicks -->\
+      <div id="tabzilla-promo-fxos" class="snippet"> <!--ex: promo-firefox, promo-MWC, promo-flicks -->\
         <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">\
-          <h4>Firefox for Android</h4>\
-\
-          <p>我會說中文了！</p>\
+          <h4>Firefox OS</h4>\
+          <p>瞭解 Firefox OS</p>\
         </a>\
       </div>\
       <!-- end of promo-name -->\
@@ -378,7 +377,7 @@ var Tabzilla = (function (Tabzilla) {
                 <a href="//mozilla.com.tw/firefox/channel/" title="Mozilla Firefox 未來發行版">Firefox 未來發行版</a>\
               </li>\
               <li>\
-                <a href="//mozilla.com.tw/firefoxos/" title="Firefox 行動作業系統">Firefox OS</a>\
+                <a href="//mozilla.com.tw/firefox/os/" title="Firefox 行動作業系統">Firefox OS</a>\
               </li>\
               <li>\
                 <a href="https://addons.mozilla.org/zh-TW/firefox/" title="Firefox 附加元件">附加元件</a>\
