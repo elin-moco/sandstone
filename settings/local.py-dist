@@ -1,4 +1,4 @@
-from sandstone.settings.base import *
+from bedrock.sandstone.settings.base import *
 
 LOCAL_MOCO_URL = 'bedrock.inspire.mozilla.com.tw'
 LOCAL_BLOG_URL = 'blog.inspire.mozilla.com.tw'

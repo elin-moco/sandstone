@@ -4,6 +4,7 @@
 @baseFontFamily:    'Open Sans', sans-serif;
 @baseLine:          20px;
 @smallFontSize:     12px;
+@largeFontSize:     16px;
 
 @textColorPrimary:   #333;
 @textColorSecondary: #484848;
@@ -316,13 +317,21 @@
     .box-shadow(@shadow);
 }
 
-.hidden {
-  position: absolute;
-  left: -999em;
-}
-
 .form-field-error {
   border-color: rgb(175,50,50);
   @shadow: 0 2px 1px rgba(0,0,0,0.1) inset, 0 0 8px 0 rgba(175,50,50,.6);
   .box-shadow(@shadow);
 }
+
+// Hide visually, but not to screen readers
+.visually-hidden() {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding: 0;
+    border: 0;
+}
+

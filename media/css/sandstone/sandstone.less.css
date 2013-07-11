@@ -153,13 +153,6 @@ a img {
 }
 @font-face {
   font-family: 'Open Sans Light';
-  src: url('/media/fonts/OpenSans-Regular-webfont.eot');
-  src: url('/media/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Open Sans Light';
   src: url('/media/fonts/OpenSans-LightItalic-webfont.eot');
   src: url('/media/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('/media/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-LightItalic-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
@@ -1284,7 +1277,7 @@ a img {
   color: #b8e779;
   margin-left: -54px;
   _margin-left: 0;
-  background: url(/media/img/sandstone/buttons/firefox-large.png?build=2) 0 0 no-repeat;
+  background: url(/media/img/sandstone/buttons/firefox-large.png?2013-06) 0 0 no-repeat;
   _background-color: #659324;
   min-height: 82px;
   margin-bottom: -12px;
@@ -1333,7 +1326,7 @@ a img {
   _margin-left: 0;
   margin-top: -2px;
   margin-bottom: -7px;
-  background-image: url(/media/img/sandstone/buttons/firefox-small.png?build=2);
+  background-image: url(/media/img/sandstone/buttons/firefox-small.png?2013-06);
   min-height: 45px;
   padding: 10px 20px 10px 73px;
   overflow: visible;
@@ -1377,16 +1370,16 @@ a img {
   letter-spacing: -0.01em;
 }
 .download-button-large.beta .download-link .download-content {
-  background-image: url(/media/img/sandstone/buttons/beta-large.png);
+  background-image: url(/media/img/sandstone/buttons/beta-large.png?2013-06);
 }
 .download-button-small.beta .download-link .download-content {
-  background-image: url(/media/img/sandstone/buttons/beta-small.png);
+  background-image: url(/media/img/sandstone/buttons/beta-small.png?2013-06);
 }
 .download-button-large.aurora .download-link .download-content {
-  background-image: url(/media/img/sandstone/buttons/aurora-large.png);
+  background-image: url(/media/img/sandstone/buttons/aurora-large.png?2013-06);
 }
 .download-button-small.aurora .download-link .download-content {
-  background-image: url(/media/img/sandstone/buttons/aurora-small.png);
+  background-image: url(/media/img/sandstone/buttons/aurora-small.png?2013-06);
 }
 .download-button.download-button-noicon .download-link {
   width: 250px;
@@ -1465,27 +1458,22 @@ a img {
 .android .download-button-desktop .unrecognized-download {
   display: block;
 }
-.download-button noscript,
-.download-button .unrecognized-download {
+.download-button .download-dumb {
   text-align: left;
 }
-.download-button noscript h4,
-.download-button .unrecognized-download h4 {
+.download-button .download-dumb h4 {
   text-shadow: none;
   margin: 0 0 6px 0;
   font-size: 18px;
 }
-.download-button noscript ul li,
-.download-button .unrecognized-download ul li {
+.download-button .download-dumb ul li {
   display: inline;
 }
-.download-button noscript small,
-.download-button .unrecognized-download small {
+.download-button .download-dumb small {
   font-size: 11px;
   letter-spacing: normal;
 }
-.download-button noscript .button-green,
-.download-button .unrecognized-download .button-green {
+.download-button .download-dumb .button-green {
   padding-left: 6px;
   padding-right: 6px;
   margin-left: 3px;
@@ -2051,27 +2039,33 @@ nav.menu-bar ul li:first-child a {
 }
 /* }}} */
 /* {{{ Sidebar */
-.sidebar nav {
+.sidebar nav,
+.sidebar .nav {
   font-family: 'Open Sans Light', sans-serif;
   font-weight: normal;
   font-size: 16px;
   color: #484848;
 }
-.sidebar nav li {
+.sidebar nav li,
+.sidebar .nav li {
   list-style-type: none;
   border-bottom: 1px dotted #ccc;
   margin: 0;
 }
 .sidebar nav li a,
-.sidebar nav li b {
+.sidebar .nav li a,
+.sidebar nav li b,
+.sidebar .nav li b {
   display: block;
   padding: 8px 0;
 }
-.sidebar nav li b {
+.sidebar nav li b,
+.sidebar .nav li b {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
 }
-.sidebar nav li:first-child {
+.sidebar nav li:first-child,
+.sidebar .nav li:first-child {
   font-size: 24px;
 }
 .sidebar .reference {
@@ -2089,45 +2083,56 @@ nav.menu-bar ul li:first-child a {
 }
 /* }}} */
 /* {{{ Footer Email Form */
-#footer-email-form {
+#footer-email-form,
+#newsletter-form {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 0;
 }
-#footer-email-form h3 {
+#footer-email-form h3,
+#newsletter-form h3 {
   float: left;
   margin-left: 24px;
   width: 252px;
   margin-left: 0;
 }
-#footer-email-form .form-contents {
+#footer-email-form .form-contents,
+#newsletter-form .form-contents {
   float: left;
   margin-left: 24px;
   width: 344px;
 }
-#footer-email-form .form-submit {
+#footer-email-form .form-submit,
+#newsletter-form .form-submit {
   float: left;
   margin-left: 24px;
   width: 252px;
 }
-#footer-email-form .field {
+#footer-email-form .field,
+#newsletter-form .field {
   padding: 0 0 8px 0;
 }
 #footer-email-form input[type=email],
-#footer-email-form select {
+#newsletter-form input[type=email],
+#footer-email-form select,
+#newsletter-form select {
   width: 232px;
 }
-#footer-email-form .field-privacy {
+#footer-email-form .field-privacy,
+#newsletter-form .field-privacy {
   font-size: 12px;
 }
-#footer-email-form .field-privacy input {
+#footer-email-form .field-privacy input,
+#newsletter-form .field-privacy input {
   float: left;
 }
-#footer-email-form .field-privacy .title {
+#footer-email-form .field-privacy .title,
+#newsletter-form .field-privacy .title {
   display: block;
   padding-left: 25px;
 }
-#footer-email-form.thank h3 {
+#footer-email-form.thank h3,
+#newsletter-form.thank h3 {
   width: auto;
   margin: auto;
   padding: 0;
@@ -2146,7 +2151,8 @@ nav.menu-bar ul li:first-child a {
   line-height: 100%;
   color: #484848;
 }
-#footer-email-errors .errorlist {
+#footer-email-errors .errorlist,
+#newsletter-errors .errorlist {
   width: 1080px;
   display: block;
   margin: 0 auto;
@@ -2160,7 +2166,8 @@ nav.menu-bar ul li:first-child a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-#footer-email-errors .errorlist:after {
+#footer-email-errors .errorlist:after,
+#newsletter-errors .errorlist:after {
   display: block;
   visibility: hidden;
   height: 0;

@@ -1,0 +1,57 @@
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.open-sans-light {
+  font-family: 'Open Sans Light', sans-serif;
+  font-weight: normal;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.border-box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*
+ * Based on bootstrap, Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+.row {
+  margin-left: -24px;
+  zoom: 1;
+}
+.row:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+.hidden {
+  position: absolute;
+  left: -999em;
+}
+.form-field-error {
+  border-color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+}
+section.row {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}

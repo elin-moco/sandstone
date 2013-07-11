@@ -1,0 +1,17 @@
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.open-sans-light {
+  font-family: 'Open Sans Light', sans-serif;
+  font-weight: normal;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}

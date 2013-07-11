@@ -1,7 +1,7 @@
 import os
 from django.core.management.base import NoArgsCommand
 from django.template.loader import render_to_string
-from sandstone.settings import *
+from bedrock.sandstone.settings import *
 
 
 LOCAL_URL_MAP = {
