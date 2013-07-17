@@ -39,6 +39,36 @@
 #masthead nav li a:visited {
   color: #484848;
 }
+#masthead nav.breadcrumbs {
+  float: none;
+  margin: 0 0 20px 80px;
+  color: #303030;
+}
+#masthead nav.breadcrumbs b {
+  font-weight: bold;
+  font-size: 120%;
+  margin: 0 5px 0 5px;
+}
+#masthead nav.breadcrumbs a.home {
+  background: url(/media/img/sandstone/breadcrumb-home.png) 0 0 no-repeat;
+  display: inline;
+  float: left;
+  margin-top: 2px;
+  height: 13px;
+  width: 15px;
+  overflow: hidden;
+  line-height: 50px;
+}
+#masthead nav.breadcrumbs a.home-inversed {
+  background: url(/media/img/sandstone/breadcrumb-home-w.png) 0 0 no-repeat;
+  display: inline;
+  float: left;
+  margin-top: 2px;
+  height: 13px;
+  width: 15px;
+  overflow: hidden;
+  line-height: 50px;
+}
 #nav-main .toggle {
   display: none;
   /* Hidden in non-mobile views */

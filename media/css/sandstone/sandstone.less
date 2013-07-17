@@ -19,6 +19,7 @@ body {
 #outer-wrapper {
     position: relative;
     border-top: 2px solid #fff;
+    min-width: 992px;
     background: #f9f9f9 url(/media/img/sandstone/bg-stone.png) 0 0 repeat-x;
 }
 
@@ -30,6 +31,7 @@ a {
     color: @linkBlue;
     text-decoration: none;
     &:hover,
+    &:focus,
     &:active {
         color: darken(@linkBlue, 10%);
         text-decoration: underline;
@@ -56,6 +58,7 @@ a {
     a {
         color: @linkSkyBlue;
         &:hover,
+        &:focus,
         &:active {
             color: darken(@linkSkyBlue, 10%);
         }
@@ -75,6 +78,7 @@ a {
     a {
         color: @linkSpaceBlue;
         &:hover,
+        &:focus,
         &:active {
             color: lighten(@linkSpaceBlue, 10%);
         }
@@ -317,7 +321,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
     padding-left: 48px;
     padding-right: 48px;
     position: relative;
-    width: 896px;
+    width: 960px;
     .clearfix
 }
 
@@ -591,6 +595,7 @@ nav.menu-bar {
     }
 
     a:hover,
+    a:focus,
     a:active {
         color: darken(@linkBlue, 10%);
     }

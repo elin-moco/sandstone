@@ -1542,6 +1542,7 @@ body {
 #outer-wrapper {
   position: relative;
   border-top: 2px solid #fff;
+  min-width: 992px;
   background: #f9f9f9 url(/media/img/sandstone/bg-stone.png) 0 0 repeat-x;
 }
 #wrapper {
@@ -1552,6 +1553,7 @@ a {
   text-decoration: none;
 }
 a:hover,
+a:focus,
 a:active {
   color: #0073aa;
   text-decoration: underline;
@@ -1568,6 +1570,7 @@ a:active {
   color: #67a7d0;
 }
 .sky a:hover,
+.sky a:focus,
 .sky a:active {
   color: #4090c4;
 }
@@ -1583,6 +1586,7 @@ a:active {
   color: #2f8aca;
 }
 .space a:hover,
+.space a:focus,
 .space a:active {
   color: #55a1d7;
 }
@@ -1898,7 +1902,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
   padding-left: 48px;
   padding-right: 48px;
   position: relative;
-  width: 896px;
+  width: 960px;
   zoom: 1;
 }
 #masthead:after,
@@ -2159,7 +2163,7 @@ nav.menu-bar ul li:first-child a {
   padding-left: 48px;
   padding-right: 48px;
   position: relative;
-  width: 896px;
+  width: 960px;
   zoom: 1;
   background: #AF3232;
   color: #fff;
@@ -2188,6 +2192,7 @@ nav.menu-bar ul li:first-child a {
   color: #0096dd;
 }
 #colophon a:hover,
+#colophon a:focus,
 #colophon a:active {
   color: #0073aa;
 }
