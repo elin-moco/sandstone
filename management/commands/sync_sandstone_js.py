@@ -17,6 +17,7 @@ class Command(NoArgsCommand):
             os.makedirs(js_path)
 
         shutil.copy('media/js/base/nav-main-resp.js', js_path)
+        shutil.copy('media/js/sandstone/nav.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-all.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-min.js', js_path)
         shutil.copy('media/js/sandstone-tabzilla-nav-all.js', js_path)
