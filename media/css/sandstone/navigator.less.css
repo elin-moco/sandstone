@@ -320,11 +320,6 @@
   #masthead nav.breadcrumbs {
     margin-left: 0;
   }
-  #masthead nav.breadcrumbs a,
-  #masthead nav.breadcrumbs span {
-    margin-right: .3em;
-    margin-left: .3em;
-  }
   nav.menu-bar {
     text-align: inherit;
     line-height: 100%;

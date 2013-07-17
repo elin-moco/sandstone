@@ -1960,11 +1960,6 @@ px      68    160    252    344    436    528    620    712    804    896    */
   padding: 0 0 10px 0;
   float: none;
 }
-#masthead nav.breadcrumbs a,
-#masthead nav.breadcrumbs span {
-  margin-right: .5em;
-  margin-left: .5em;
-}
 #masthead nav.breadcrumbs a:first-child,
 #masthead nav.breadcrumbs span:first-child {
   margin-left: 0;
