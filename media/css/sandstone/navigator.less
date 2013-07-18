@@ -181,7 +181,15 @@
             transition: background 0.1s ease-out;
         }
     }
+    li[role=menuitem].hover {
+        > a,
+        > a:hover,
+        > a:focus,
+        > a:active {
+            background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='7px' height='30px'><polygon points='0,15 15,0 10,25' fill='rgb(246,246,246)' stroke='white' stroke-width='1'/></svg>") no-repeat top right, rgba(152,178,201,0.2);
+        }
 
+    }
 }
 
 #nav-main-menu li.hover a.no-submenu {
@@ -318,7 +326,6 @@
     }
     html {
         -webkit-overflow-scrolling: touch;
-
     }
     div.slide-x{
         transition: all 1s ease-in-out;
@@ -436,7 +443,7 @@
         margin: 15px 0 0 -10px;
 
         li.hover a {
-            background-image: none;
+            background: none;
         }
 
     }
@@ -515,7 +522,7 @@
             position: static;
             top: 0;
             opacity: 1;
-            background: #EEEEEE;
+            background: #FFFFFF;
             width: 250px;
             margin: 0 0 0 10px;
             li {
@@ -531,6 +538,20 @@
             -webkit-transition: none 0s;
             transition: none 0s;
         }
+
+        #nav-main-menu .submenu {
+            li,
+            li[role=menuitem].hover {
+                > a,
+                > a:hover,
+                > a:focus,
+                > a:active {
+                    background: none;
+                }
+
+            }
+        }
+
         .toggle {
             display: block;
             width: 32px;
@@ -565,12 +586,7 @@
             // margin: 0 -10px;
         }
         #nav-main-menu a:hover {
-            background-image: none;
-            background: rgb(227,235,244);
-            background: rgba(152,178,201,0.2);
-            -moz-transition: background 0.1s ease-out;
-            -webkit-transition: background 0.1s ease-out;
-            transition: background 0.1s ease-out;
+            background: none;
         }
 
         #nav-main-menu a.submenu-item {
@@ -587,7 +603,7 @@
     }
 
     #nav-main-menu {
-        background: #fff;
+        background: #EEEEEE;
         position: absolute;
         z-index: 999;
         width: 270px;
