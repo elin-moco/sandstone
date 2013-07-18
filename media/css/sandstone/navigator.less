@@ -269,6 +269,14 @@
 
 /* Mobile Layout: 760px */
 @media only screen and (max-width: @breakTablet) {
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    html {
+        -webkit-overflow-scrolling: touch;
+
+    }
     div.slide-x{
         transition: all 1s ease-in-out;
         -webkit-transition: all 1s ease-in-out;
@@ -538,16 +546,19 @@
     #nav-main-menu {
         background: #fff;
         position: absolute;
-        z-index: 99;
+        z-index: 999;
         width: 270px;
         margin: 0;
         padding: 0;
         left: -270px;
         top: 0;
-        overflow: scroll;
+        bottom: 0;
+        overflow-y: scroll;
         text-indent: 20px;
+        height: 100%;
         // .border-radius(10px);
         // .box-shadow(0 1px 3px 0 rgba(0,0,0,.5));
+        -webkit-overflow-scrolling: touch;
     }
 
     #nav-main-menu:before {
