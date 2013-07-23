@@ -5,7 +5,7 @@
 
 /* {{{ Basic Colors, Text, Links */
 
-html { background: #fff; }
+html { background: #fff; overflow-x: hidden;}
 
 body {
     font-size: @baseFontSize;
@@ -13,10 +13,11 @@ body {
     font-family: @baseFontFamily;
     color: @textColorPrimary;
     background: #fff;
+    overflow-x: hidden;
 }
 
 #outer-wrapper {
-    position: relative;
+//    position: relative;
     border-top: 2px solid #fff;
     background: #f9f9f9 url(/media/img/sandstone/bg-stone.png) 0 0 repeat-x;
 }
@@ -25,7 +26,7 @@ body {
     padding-bottom: @baseLine * 2;
     width: @widthDesktop;
     margin: 0 auto;
-    position: relative;
+//    position: relative;
 }
 
 #strings { /* An arbitrary container for translatable strings to use in in scripts */
@@ -427,6 +428,9 @@ label.error {
     padding-right: @gridGutterWidth;
     position: relative;
     .clearfix;
+}
+#masthead {
+  position: static;
 }
 /* }}} */
 /* {{{ Header Nav */
