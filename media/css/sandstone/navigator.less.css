@@ -521,7 +521,7 @@
     bottom: 0;
     overflow-y: scroll;
     text-indent: 20px;
-    height: 100%;
+    height: 640px;
     -webkit-overflow-scrolling: touch;
   }
   #nav-main-menu:before {
