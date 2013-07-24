@@ -107,7 +107,7 @@
   display: inline;
   width: 300px;
   height: 210px;
-  margin: 0 10px;
+  margin-right: 10px;
   position: relative;
   font-size: 13px;
   line-height: 1.5;
@@ -136,7 +136,7 @@
   float: left;
   display: inline;
   width: 640px;
-  margin: 0;
+  margin-left: 10px;
 }
 #tabzilla-promo .snippet h4 {
   line-height: 1.1;
