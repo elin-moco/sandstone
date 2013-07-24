@@ -1635,9 +1635,9 @@ h6,
 }
 .large,
 .large h1 {
-  font-size: 72px;
+  font-size: 64px;
   letter-spacing: -3px;
-  line-height: 100%;
+  line-height: 120%;
 }
 h1,
 .huge h2,
