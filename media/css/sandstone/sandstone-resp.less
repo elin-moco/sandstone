@@ -646,6 +646,7 @@ nav.menu-bar {
 
     h3 {
         .span(4);
+      font-size: 26px;
     }
 
     .form-contents {
@@ -654,10 +655,21 @@ nav.menu-bar {
 
     .form-submit {
         .span(3);
+        width: 240px;
         input {
             // fix for IE 6/7 treating min-width as width
             // for submit input
             overflow: visible;
+        }
+        small a {
+          display: inline-block;
+          margin-left: 10px;
+          &:after {
+            content: " »";
+            font-family: @baseFontFamily;
+            font-weight: 300;
+            white-space: nowrap;
+          }
         }
     }
 

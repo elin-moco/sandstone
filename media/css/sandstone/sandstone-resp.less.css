@@ -185,7 +185,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -309,7 +309,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -476,7 +476,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -659,7 +659,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -837,7 +837,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -1101,7 +1101,7 @@ a img {
   min-width: 80px;
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   -webkit-transition: all linear 0.25s;
   -moz-transition: all linear 0.25s;
   -o-transition: all linear 0.25s;
@@ -1387,7 +1387,7 @@ a img {
 .download-button small.download-other,
 .other .download-button-mobile small.download-other,
 .android .download-button-desktop small.download-other {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   display: block;
   font-size: 11px;
   text-align: right;
@@ -1491,7 +1491,7 @@ html {
 body {
   font-size: 14px;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   color: #333333;
   background: #fff;
   overflow-x: hidden;
@@ -1582,7 +1582,7 @@ h6,
 legend,
 .huge,
 .large {
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
   display: block;
   margin: 0 0 12px 0;
@@ -1664,7 +1664,7 @@ li {
   margin-left: 20px;
 }
 dl dt {
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
   font-size: 32px;
   line-height: 100%;
@@ -1705,7 +1705,7 @@ input[type=text] {
   border-style: solid;
   border-width: 1px;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   padding: 4px 10px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1759,7 +1759,7 @@ input.invalid {
 }
 .messagelist {
   margin: 0 0 24px 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
 .messagelist li {
   list-style-type: none;
@@ -1775,7 +1775,7 @@ input.invalid {
 }
 .errorlist {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   color: #c00;
 }
 .errorlist li {
@@ -1839,7 +1839,7 @@ input[type=text].error {
   border-color: transparent #c13018;
 }
 label.error {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-size: 12px;
   color: #af3232;
   font-weight: bold;
@@ -1918,7 +1918,7 @@ label.error {
   margin-right: 16px;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
 #masthead nav li {
   display: inline-block;
@@ -1991,7 +1991,7 @@ label.error {
 }
 nav.menu-bar {
   text-align: center;
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
   margin-bottom: 40px;
   padding-top: 0;
@@ -2051,14 +2051,14 @@ nav.menu-bar ul li:first-child a {
   border-top: 0;
   padding-top: 0;
   font-size: 16px;
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
 }
 /* }}} */
 /* {{{ Sidebar */
 .sidebar nav,
 .sidebar .nav {
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
   font-size: 16px;
   color: #484848;
@@ -2092,7 +2092,7 @@ nav.menu-bar ul li:first-child a {
   display: block;
   padding: 10px 0;
   border-bottom: 1px dotted #d6d6d6;
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
 }
 .sidebar .reference p {
@@ -2111,6 +2111,7 @@ nav.menu-bar ul li:first-child a {
   float: left;
   width: 300px;
   margin: 0 10px;
+  font-size: 26px;
 }
 #footer-email-form .form-contents,
 #newsletter-form .form-contents {
@@ -2123,10 +2124,23 @@ nav.menu-bar ul li:first-child a {
   float: left;
   width: 220px;
   margin: 0 10px;
+  width: 240px;
 }
 #footer-email-form .form-submit input,
 #newsletter-form .form-submit input {
   overflow: visible;
+}
+#footer-email-form .form-submit small a,
+#newsletter-form .form-submit small a {
+  display: inline-block;
+  margin-left: 10px;
+}
+#footer-email-form .form-submit small a:after,
+#newsletter-form .form-submit small a:after {
+  content: " »";
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
+  font-weight: 300;
+  white-space: nowrap;
 }
 #footer-email-form .field,
 #newsletter-form .field {
@@ -2251,7 +2265,7 @@ nav.menu-bar ul li:first-child a {
   margin-bottom: 10px;
 }
 #colophon .footer-nav {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
 #colophon .footer-nav li {
   list-style-type: none;
