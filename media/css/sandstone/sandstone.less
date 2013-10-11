@@ -201,6 +201,15 @@ code {
     font-size: 14px;
 }
 
+select {
+    height: 1.5em;
+    line-height: 1.5;
+}
+
+select[multiple] {
+    height: auto;
+}
+
 .center {
     text-align: center;
 }
@@ -236,7 +245,7 @@ input[type=text]:focus {
     .transition(all linear .1s);
 }
 
-.form-field {
+.field {
     margin-bottom: @baseLine / 3;
 }
 
@@ -605,8 +614,9 @@ nav.menu-bar {
     }
 
     .footer-logo,
-    .footer-license {
-        .span(3);
+    .footer-license,
+    .footer-lang {
+        .span(2);
     }
 
     .footer-nav {

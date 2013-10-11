@@ -112,7 +112,7 @@ a {
 
 }
 
-h1, h2, h3, h4, h5, h6, legend, .huge, .large {
+h1, h2, h3, h4, h5, h6, legend, .huge, .large, legend {
     .open-sans-light;
     display: block;
     margin: 0 0 12px 0;
@@ -153,12 +153,12 @@ h3 {
     letter-spacing: -0.5px;
 }
 
-h4 {
+h4, legend {
     font-size: 24px;
     letter-spacing: -0.25px;
 }
 
-h5, legend {
+h5 {
     font-size: 16px;
 }
 
@@ -233,6 +233,15 @@ code {
     font-size: 14px;
 }
 
+select {
+    height: 1.5em;
+    line-height: 1.5;
+}
+
+select[multiple] {
+    height: auto;
+}
+
 .center {
     text-align: center;
 }
@@ -247,6 +256,8 @@ img {
 
 textarea,
 input[type=email],
+input[type=url],
+input[type=tel],
 input[type=password],
 input[type=search],
 input[type=text] {
@@ -278,6 +289,11 @@ input.focus {
     .transition(all linear .1s);
 }
 
+select:focus {
+    @shadow: 0 0 0 2px rgba(73,173,227,0.4);
+    .box-shadow(@shadow);
+}
+
 textarea:-moz-ui-invalid:not(output),
 input[type=email]:-moz-ui-invalid:not(output),
 input[type=password]:-moz-ui-invalid:not(output),
@@ -290,8 +306,61 @@ input.invalid {
     .transition(all linear .1s);
 }
 
-.form-field {
-    margin-bottom: @baseLine / 3;
+.fill-width {
+    display: block;
+    width: 100%;
+    .border-box();
+}
+
+.field {
+    margin-bottom: @baseLine / 2;
+    label {
+        display: block;
+        margin-bottom: 0.1em;
+        .required {
+            font-size: @smallFontSize;
+            color: @linkRed;
+            text-transform: uppercase;
+        }
+        &.checkbox,
+        &.radio {
+            display: block;
+            padding-left: 1.5em;
+        }
+        &.checkbox input[type="checkbox"],
+        &.radio input[type="radio"] {
+            float: left;
+            margin-left: -1.5em;
+        }
+    }
+    &.required label:after {
+        .required-star();
+    }
+    .field-note {
+        font-size: @smallFontSize;
+        color: @textColorTertiary;
+        margin-top: 0.1em;
+    }
+}
+
+.form-minimal-label {
+    label {
+        font-size: @smallFontSize;
+        color: #999;
+    }
+}
+
+.in-form-fieldset {
+    margin-top: @baseLine / 2;
+    margin-bottom: @baseLine / 2;
+    legend {
+        margin-bottom: @baseLine / 2;
+        font-size: 18px;
+        letter-spacing: normal;
+        &.required:after {
+            .required-star();
+        }
+    }
 }
 
 .messagelist {
@@ -322,12 +391,22 @@ input.invalid {
     input[type=text] {
         .form-field-error;
     }
+    select {
+        .box-shadow(@formFieldSelectErrorShadow);
+    }
+    label {
+        color: @linkRed;
+    }
 }
 
 input[type=email], input[type=password], input[type=text] {
     &.error {
         .form-field-error;
     }
+}
+
+select.error {
+    .box-shadow(@formFieldSelectErrorShadow);
 }
 
 .tooltip {
@@ -373,10 +452,7 @@ input[type=email], input[type=password], input[type=text] {
 
 label.error {
     .open-sans;
-    font-size: 12px;
     color: rgb(175,50,50);
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .super-priority-field {
@@ -639,9 +715,8 @@ nav.menu-bar {
 /* }}} */
 /* {{{ Footer Email Form */
 
-#footer-email-form, #newsletter-form {
-    padding-top: @baseLine;
-    padding-bottom: @baseLine;
+#footer-email-form,
+#newsletter-form {
     margin-bottom: 0;
 
     h3 {
@@ -673,10 +748,6 @@ nav.menu-bar {
         }
     }
 
-    .field {
-        padding: 0 0 8px 0;
-    }
-
     select {
         max-width: 80%;
     }
@@ -704,6 +775,9 @@ nav.menu-bar {
         margin: auto;
         padding: 0;
         float: none;
+    }
+    p {
+        margin-top: @baseLine;
     }
 }
 .js {
@@ -752,16 +826,14 @@ nav.menu-bar {
         margin: 0 (@gridGutterWidth / 2);
     }
 
-    .footer-logo {
-        .span(4);
-    }
-
-    .footer-license {
-        .span(3);
-    }
-
+    .footer-logo,
     .footer-nav {
         .span(2);
+    }
+
+    .footer-license,
+    .footer-lang {
+        .span(3);
     }
 
     a,
@@ -842,16 +914,21 @@ nav.menu-bar {
         .row {
             width: @widthTablet - (@gridGutterWidth * 2);
         }
-        .footer-logo {
-            .span_narrow(4);
-        }
-        .footer-license {
-            .span_narrow(3);
-        }
-        .footer-nav {
-            .span_narrow(2);
+
+        .footer-logo,
+        .footer-license,
+        .footer-lang {
+            .span(2.5);
         }
 
+        .footer-nav {
+            .span(2);
+        }
+
+        .footer-logo {
+            float: none;
+            margin-bottom: @baseLine;
+        }
     }
 
 }
@@ -995,6 +1072,7 @@ nav.menu-bar {
         .form-submit {
             width: auto;
             float: none;
+            margin-bottom: 10px;
         }
 
         .form-submit {
@@ -1011,9 +1089,6 @@ nav.menu-bar {
         .footer-nav {
             width: auto;
             float: none;
-        }
-        .footer-logo,
-        .footer-license {
             margin-bottom: @baseLine;
         }
     }
@@ -1033,6 +1108,30 @@ nav.menu-bar {
             background-position: center -100px;
         }
 
+    }
+
+    #about {
+        #nav-main-menu .about-item > a {
+            background-color: #eee;
+        }
+    }
+
+    #mission {
+        #nav-main-menu .mission-item > a {
+            background-color: #eee;
+        }
+    }
+
+    #products-page {
+        #nav-main-menu .products-item > a {
+            background-color: #eee;
+        }
+    }
+
+    #contribute {
+        #nav-main-menu .contribute-item > a {
+            background-color: #eee;
+        }
     }
 
 }
