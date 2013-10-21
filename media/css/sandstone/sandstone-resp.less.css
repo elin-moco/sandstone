@@ -1,8 +1,8 @@
 .form-field-error {
   border-color: #af3232;
-  -webkit-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
 }
 html,
 body,
@@ -99,37 +99,43 @@ a img {
 }
 @font-face {
   font-family: 'Open Sans Light';
-  src: url('/media/fonts/OpenSans-Light-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-Light-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-Light-webfont.ttf?2013') format('truetype');
+  src: url('/media/fonts/OpenSans-Light-webfont.eot');
+  src: url('/media/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans Light';
-  src: url('/media/fonts/OpenSans-Semibold-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-Semibold-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-Semibold-webfont.ttf?2013') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Open Sans Light';
-  src: url('/media/fonts/OpenSans-LightItalic-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-LightItalic-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-LightItalic-webfont.ttf?2013') format('truetype');
+  src: url('/media/fonts/OpenSans-LightItalic-webfont.eot');
+  src: url('/media/fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('/media/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-LightItalic-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/media/fonts/OpenSans-Regular-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-Regular-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-Regular-webfont.ttf?2013') format('truetype');
+  src: url('/media/fonts/OpenSans-Regular-webfont.eot');
+  src: url('/media/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Open Sans';
-  src: url('/media/fonts/OpenSans-Bold-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-Bold-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-Bold-webfont.ttf?2013') format('truetype');
+  font-family: 'Open Sans Light';
+  src: url('/media/fonts/OpenSans-Semibold-webfont.eot');
+  src: url('/media/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/media/fonts/OpenSans-Italic-webfont.eot?#iefix2013') format('embedded-opentype'), url('/media/fonts/OpenSans-Italic-webfont.woff?2013') format('woff'), url('/media/fonts/OpenSans-Italic-webfont.ttf?2013') format('truetype');
+  src: url('/media/fonts/OpenSans-Bold-webfont.eot');
+  src: url('/media/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Bold-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/media/fonts/OpenSans-Italic-webfont.eot');
+  src: url('/media/fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('/media/fonts/OpenSans-Italic-webfont.woff') format('woff'), url('/media/fonts/OpenSans-Italic-webfont.ttf') format('truetype'), url('/media/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -216,9 +222,6 @@ a img {
 .button:link.focus,
 .button:visited.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .button:active,
 .button:link:active,
@@ -371,9 +374,6 @@ a img {
 .button-green:link.focus,
 .button-green:visited.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .button-green:active,
 .button-green:link:active,
@@ -439,17 +439,13 @@ a img {
 }
 .button-green:hover,
 .button-green:link:hover,
-.button-green:visited:hover {
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
-}
+.button-green:visited:hover,
 .button-green:focus,
 .button-green:link:focus,
 .button-green:visited:focus {
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
+  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
 }
 .button-negative,
 .button-negative:link,
@@ -544,9 +540,6 @@ a img {
 .button-negative:link.focus,
 .button-negative:visited.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .button-negative:active,
 .button-negative:link:active,
@@ -612,17 +605,13 @@ a img {
 }
 .button-negative:hover,
 .button-negative:link:hover,
-.button-negative:visited:hover {
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
-}
+.button-negative:visited:hover,
 .button-negative:focus,
 .button-negative:link:focus,
 .button-negative:visited:focus {
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(218, 81, 50, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(218, 81, 50, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(218, 81, 50, 0.4);
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
+  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #e64926;
 }
 .button-white,
 .button-white:link,
@@ -721,9 +710,6 @@ a img {
 .button-white:link.focus,
 .button-white:visited.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .button-white:active,
 .button-white:link:active,
@@ -924,9 +910,6 @@ a img {
 .button-sand:link.focus,
 .button-sand:visited.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .button-sand:active,
 .button-sand:link:active,
@@ -1005,10 +988,8 @@ a img {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
-  font-size: 0;
 }
 .button-list li {
-  font-size: 14px;
   margin: 0;
   padding: 0;
   list-style-style: none;
@@ -1186,9 +1167,6 @@ a img {
 .download-button .download-link:focus,
 .download-button .download-link.focus {
   outline-color: #484848;
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed, 0 0 0 2px rgba(73, 173, 227, 0.4);
 }
 .download-button .download-link:active,
 .download-button .download-link.active {
@@ -1240,15 +1218,11 @@ a img {
 .download-button .download-link small {
   display: block;
 }
-.download-button .download-link:hover {
+.download-button .download-link:hover,
+.download-button .download-link:focus {
   -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
   -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #83c822;
-}
-.download-button .download-link:focus {
-  -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
-  -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(129, 188, 46, 0.4);
 }
 .download-button .download-link .download-content {
   display: block;
@@ -1284,7 +1258,7 @@ a img {
 .download-button .download-link .download-lang {
   display: block;
   color: #346012;
-  padding-top: 2px;
+  padding-top: 6px;
   font-size: 11px;
   line-height: 100%;
   text-shadow: 0 1px rgba(255, 255, 255, 0.2);
@@ -1406,7 +1380,6 @@ a img {
   display: block !important;
 }
 .ios .download-button .unsupported-download,
-.oldwin .download-button .unsupported-download,
 .oldmac .download-button .unsupported-download {
   display: block;
   max-width: 250px;
@@ -1433,6 +1406,10 @@ a img {
 .other .download-button small.download-other,
 .android .download-button-desktop small.download-other {
   text-align: left;
+}
+.download-button small.download-other .global-link {
+  font-size: 13px;
+  color: #67a7d0 !important;
 }
 .other .download-button .unrecognized-download,
 .android .download-button-desktop .unrecognized-download {
@@ -1608,8 +1585,7 @@ h5,
 h6,
 legend,
 .huge,
-.large,
-legend {
+.large {
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
   font-weight: normal;
   display: block;
@@ -1626,6 +1602,7 @@ legend {
 }
 .large,
 .large h1 {
+  margin-top: -10px !important;
   font-size: 64px;
   line-height: 120%;
 }
@@ -1644,12 +1621,12 @@ h3 {
   font-size: 28px;
   letter-spacing: -0.5px;
 }
-h4,
-legend {
+h4 {
   font-size: 24px;
   letter-spacing: -0.25px;
 }
-h5 {
+h5,
+legend {
   font-size: 16px;
 }
 h6 {
@@ -1714,13 +1691,6 @@ code {
   color: #666666;
   font-size: 14px;
 }
-select {
-  height: 1.5em;
-  line-height: 1.5;
-}
-select[multiple] {
-  height: auto;
-}
 .center {
   text-align: center;
 }
@@ -1732,8 +1702,6 @@ img {
 /* {{{ Forms */
 textarea,
 input[type=email],
-input[type=url],
-input[type=tel],
 input[type=password],
 input[type=search],
 input[type=text] {
@@ -1775,11 +1743,6 @@ input.focus {
   -ms-transition: all linear 0.1s;
   transition: all linear 0.1s;
 }
-select:focus {
-  -webkit-box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
-  box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
-}
 textarea:-moz-ui-invalid:not(output),
 input[type=email]:-moz-ui-invalid:not(output),
 input[type=password]:-moz-ui-invalid:not(output),
@@ -1796,64 +1759,8 @@ input.invalid {
   -ms-transition: all linear 0.1s;
   transition: all linear 0.1s;
 }
-.fill-width {
-  display: block;
-  width: 100%;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.field {
-  margin-bottom: 10px;
-}
-.field label {
-  display: block;
-  margin-bottom: 0.1em;
-}
-.field label .required {
-  font-size: 12px;
-  color: #af3232;
-  text-transform: uppercase;
-}
-.field label.checkbox,
-.field label.radio {
-  display: block;
-  padding-left: 1.5em;
-}
-.field label.checkbox input[type="checkbox"],
-.field label.radio input[type="radio"] {
-  float: left;
-  margin-left: -1.5em;
-}
-.field.required label:after {
-  content: "*";
-  font-size: 12px;
-  font-weight: bold;
-  color: #af3232;
-}
-.field .field-note {
-  font-size: 12px;
-  color: #666666;
-  margin-top: 0.1em;
-}
-.form-minimal-label label {
-  font-size: 12px;
-  color: #999;
-}
-.in-form-fieldset {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.in-form-fieldset legend {
-  margin-bottom: 10px;
-  font-size: 18px;
-  letter-spacing: normal;
-}
-.in-form-fieldset legend.required:after {
-  content: "*";
-  font-size: 12px;
-  font-weight: bold;
-  color: #af3232;
+.form-field {
+  margin-bottom: 6.666666666666667px;
 }
 .messagelist {
   margin: 0 0 24px 0;
@@ -1884,30 +1791,17 @@ input.invalid {
 .field-error input[type=password],
 .field-error input[type=text] {
   border-color: #af3232;
-  -webkit-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-}
-.field-error select {
-  -webkit-box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
-}
-.field-error label {
-  color: #af3232;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
 }
 input[type=email].error,
 input[type=password].error,
 input[type=text].error {
   border-color: #af3232;
-  -webkit-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-}
-select.error {
-  -webkit-box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 3px rgba(175, 50, 50, 0.4);
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
 }
 .tooltip {
   color: #fff;
@@ -1951,7 +1845,10 @@ select.error {
 }
 label.error {
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
+  font-size: 12px;
   color: #af3232;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .super-priority-field {
   display: none;
@@ -2210,6 +2107,8 @@ nav.menu-bar ul li:first-child a {
 /* {{{ Footer Email Form */
 #footer-email-form,
 #newsletter-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 0;
 }
 #footer-email-form h3,
@@ -2248,6 +2147,10 @@ nav.menu-bar ul li:first-child a {
   font-weight: 300;
   white-space: nowrap;
 }
+#footer-email-form .field,
+#newsletter-form .field {
+  padding: 0 0 8px 0;
+}
 #footer-email-form select,
 #newsletter-form select {
   max-width: 80%;
@@ -2275,10 +2178,6 @@ nav.menu-bar ul li:first-child a {
   margin: auto;
   padding: 0;
   float: none;
-}
-#footer-email-form.thank p,
-#newsletter-form.thank p {
-  margin-top: 20px;
 }
 .js #form-details,
 .js .form-details {
@@ -2342,16 +2241,19 @@ nav.menu-bar ul li:first-child a {
 #colophon .footer-nav {
   margin: 0 10px;
 }
-#colophon .footer-logo,
+#colophon .footer-logo {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#colophon .footer-license {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
 #colophon .footer-nav {
   float: left;
   width: 140px;
-  margin: 0 10px;
-}
-#colophon .footer-license,
-#colophon .footer-lang {
-  float: left;
-  width: 220px;
   margin: 0 10px;
 }
 #colophon a,
@@ -2424,21 +2326,20 @@ nav.menu-bar ul li:first-child a {
   #colophon .row {
     width: 720px;
   }
-  #colophon .footer-logo,
-  #colophon .footer-license,
-  #colophon .footer-lang {
+  #colophon .footer-logo {
     float: left;
-    width: 180px;
+    width: 220px;
+    margin: 0 10px;
+  }
+  #colophon .footer-license {
+    float: left;
+    width: 160px;
     margin: 0 10px;
   }
   #colophon .footer-nav {
     float: left;
-    width: 140px;
+    width: 100px;
     margin: 0 10px;
-  }
-  #colophon .footer-logo {
-    float: none;
-    margin-bottom: 20px;
   }
 }
 /* Mobile Layout: 320px */
@@ -2559,7 +2460,6 @@ nav.menu-bar ul li:first-child a {
   #newsletter-form .form-submit {
     width: auto;
     float: none;
-    margin-bottom: 10px;
   }
   #footer-email-form .form-submit,
   #newsletter-form .form-submit {
@@ -2573,6 +2473,9 @@ nav.menu-bar ul li:first-child a {
   #colophon .footer-nav {
     width: auto;
     float: none;
+  }
+  #colophon .footer-logo,
+  #colophon .footer-license {
     margin-bottom: 20px;
   }
   #nav-main .toggle {
@@ -2587,18 +2490,6 @@ nav.menu-bar ul li:first-child a {
   }
   #nav-main .toggle.open {
     background-position: center -100px;
-  }
-  #about #nav-main-menu .about-item > a {
-    background-color: #eee;
-  }
-  #mission #nav-main-menu .mission-item > a {
-    background-color: #eee;
-  }
-  #products-page #nav-main-menu .products-item > a {
-    background-color: #eee;
-  }
-  #contribute #nav-main-menu .contribute-item > a {
-    background-color: #eee;
   }
 }
 /* Wide Mobile Layout: 480px */

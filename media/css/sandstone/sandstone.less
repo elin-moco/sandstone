@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6, .huge, .large {
 
 .large,
 .large h1 {
+    margin-top: -10px !important;
     font-size: 64px;
     letter-spacing: -3px;
     line-height: 120%;
@@ -201,15 +202,6 @@ code {
     font-size: 14px;
 }
 
-select {
-    height: 1.5em;
-    line-height: 1.5;
-}
-
-select[multiple] {
-    height: auto;
-}
-
 .center {
     text-align: center;
 }
@@ -245,7 +237,7 @@ input[type=text]:focus {
     .transition(all linear .1s);
 }
 
-.field {
+.form-field {
     margin-bottom: @baseLine / 3;
 }
 
@@ -614,9 +606,8 @@ nav.menu-bar {
     }
 
     .footer-logo,
-    .footer-license,
-    .footer-lang {
-        .span(2);
+    .footer-license {
+        .span(3);
     }
 
     .footer-nav {

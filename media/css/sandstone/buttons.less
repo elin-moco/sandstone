@@ -39,7 +39,6 @@
     &:focus,
     &.focus {
         outline-color: @textColorSecondary;
-        .box-shadow(@buttonShadowFocus);
     }
 
     &:active,
@@ -67,12 +66,9 @@
     background-color: @buttonGreen;
     #gradient > .vertical(@buttonGreen, @buttonGreenDark);
 
-    &:hover {
-        .button-hover-box-shadow(@buttonGreen);
-    }
-
+    &:hover,
     &:focus {
-        .button-focus-box-shadow(@buttonGreen);
+        .button-hover-box-shadow(@buttonGreen);
     }
 }
 
@@ -83,12 +79,9 @@
     background-color: #a91300;
     #gradient > .vertical(#da5132, #a91300);
 
-    &:hover {
-        .button-hover-box-shadow(#da5132);
-    }
-
+    &:hover,
     &:focus {
-        .button-focus-box-shadow(#da5132);
+        .button-hover-box-shadow(#da5132);
     }
 }
 
@@ -168,11 +161,7 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-    // Font size set to 0 on UL and reset to body size on the LI tags
-    // This avoids putting a horizontal space between inline-block links
-    font-size: 0;
     li {
-        font-size: @baseFontSize;
         margin: 0;
         padding: 0;
         list-style-style: none;
@@ -320,7 +309,7 @@
     .download-lang {
         display: block;
         color: #346012;
-        padding-top: 2px;
+        padding-top: 6px;
         font-size: 11px;
         line-height: 100%;
         text-shadow: 0 1px rgba(255,255,255,0.2);
@@ -474,7 +463,6 @@
 }
 
 .ios .download-button .unsupported-download,
-.oldwin .download-button .unsupported-download,
 .oldmac .download-button .unsupported-download {
     display: block;
     max-width: 250px;
@@ -503,7 +491,10 @@
 .android .download-button-desktop small.download-other {
     text-align: left;
 }
-
+.download-button small.download-other .global-link {
+  font-size: 13px;
+  color: rgb(103, 167, 208) !important;
+}
 .other .download-button,
 .android .download-button-desktop {
     .unrecognized-download {

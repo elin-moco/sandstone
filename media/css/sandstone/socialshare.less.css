@@ -1,8 +1,8 @@
 .form-field-error {
   border-color: #af3232;
-  -webkit-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  -moz-box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
-  box-shadow: 0 0 0 2px rgba(175, 50, 50, 0.4);
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  -moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1) inset, 0 0 8px 0 rgba(175, 50, 50, 0.6);
 }
 .share-active-state {
   outline: none;
