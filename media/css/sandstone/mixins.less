@@ -166,6 +166,13 @@
     .box-shadow(@shadow);
 }
 
+.button-focus-box-shadow(@color: #ffffff) {
+    @shadow:  @shadowPartBottom,
+              @shadowPartBottomInset,
+              0 0 0 2px fade(@color, 40%);
+    .box-shadow(@shadow);
+}
+
 .hidden {
   position: absolute;
   left: -999em;
@@ -175,4 +182,11 @@
   border-color: rgb(175,50,50);
   @shadow: 0 2px 1px rgba(0,0,0,0.1) inset, 0 0 8px 0 rgba(175,50,50,.6);
   .box-shadow(@shadow);
+}
+
+// Add chevron character after text (with space)
+.trailing-arrow() {
+    &:after {
+        content: " »"; /* nbsp raquo */
+    }
 }

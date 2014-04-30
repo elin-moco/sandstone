@@ -486,13 +486,12 @@ var Tabzilla = (function (Tabzilla) {
     var content = '<div id="tabzilla-panel" class="close-nav" tabindex="-1">\
   <div id="tabzilla-contents">\
     <div id="tabzilla-promo">\
-      <div id="tabzilla-promo-fxos" class="snippet"> <!--ex: promo-firefox, promo-MWC, promo-flicks -->\
-        <a href="//mozilla.com.tw/firefox/os/">\
-          <h4>Firefox OS</h4>\
-          <p>瞭解 Firefox OS</p>\
-        </a>\
-      </div>\
-      <!-- end of promo-name -->\
+    <div id="tabzilla-promo-webwewant" class="snippet">\
+      <a href="https://webwewant.mozilla.org/?icn=tabz">\
+        <h4>你想要什麼樣的網路？</h4>\
+        <p>分享你的觀點</p>\
+      </a>\
+    </div><!-- end of promo-name -->\
     </div>\
     <!-- end of tabzilla-promo -->\
     <div id="tabzilla-nav">\
@@ -501,6 +500,9 @@ var Tabzilla = (function (Tabzilla) {
           <h2>Firefox</h2>\
           <div>\
             <ul>\
+              <li>\
+                <a href="//mozilla.com.tw/firefox/download/" title="下載 Mozilla Firefox 中文桌面版" tabindex="-1">Firefox 免費下載</a>\
+              </li>\
               <li>\
                 <a href="//mozilla.com.tw/firefox/" title="下載 Mozilla Firefox 中文桌面版">Firefox 桌面版</a>\
               </li>\
@@ -562,7 +564,7 @@ var Tabzilla = (function (Tabzilla) {
                 <a href="//blog.mozilla.com.tw/main" title="部落格">部落格</a>\
               </li>\
               <li>\
-                <a href="//mozilla.com.tw/news/press/" title="Mozilla 新聞">Mozilla 新聞</a>\
+                <a href="//mozilla.com.tw/news/press/" title="新聞室">新聞室</a>\
               </li>\
               <li>\
                 <a href="//blog.mozilla.com.tw/events-list" title="活動訊息">活動訊息</a>\

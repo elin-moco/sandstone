@@ -39,6 +39,7 @@
     &:focus,
     &.focus {
         outline-color: @textColorSecondary;
+        .box-shadow(@buttonShadowFocus);
     }
 
     &:active,
@@ -66,9 +67,12 @@
     background-color: @buttonGreen;
     #gradient > .vertical(@buttonGreen, @buttonGreenDark);
 
-    &:hover,
-    &:focus {
+    &:hover {
         .button-hover-box-shadow(@buttonGreen);
+    }
+
+    &:focus {
+        .button-focus-box-shadow(@buttonGreen);
     }
 }
 
@@ -79,9 +83,12 @@
     background-color: #a91300;
     #gradient > .vertical(#da5132, #a91300);
 
-    &:hover,
-    &:focus {
+    &:hover {
         .button-hover-box-shadow(#da5132);
+    }
+
+    &:focus {
+        .button-focus-box-shadow(#da5132);
     }
 }
 
@@ -161,7 +168,11 @@
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+    // Font size set to 0 on UL and reset to body size on the LI tags
+    // This avoids putting a horizontal space between inline-block links
+    font-size: 0;
     li {
+        font-size: @baseFontSize;
         margin: 0;
         padding: 0;
         list-style-style: none;
@@ -463,6 +474,7 @@
 }
 
 .ios .download-button .unsupported-download,
+.oldwin .download-button .unsupported-download,
 .oldmac .download-button .unsupported-download {
     display: block;
     max-width: 250px;
