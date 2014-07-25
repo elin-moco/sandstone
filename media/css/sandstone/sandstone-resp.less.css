@@ -185,11 +185,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button:hover,
 .button:link:hover,
@@ -208,11 +208,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button:focus,
 .button:link:focus,
@@ -236,11 +236,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button.insensitive,
 .button:link.insensitive,
@@ -312,11 +312,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
   cursor: pointer;
   background-color: #81bc2e;
   background-color: #659324;
@@ -363,11 +363,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-green:focus,
 .button-green:link:focus,
@@ -391,11 +391,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-green.insensitive,
 .button-green:link.insensitive,
@@ -486,11 +486,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
   cursor: pointer;
   background-color: #a91300;
   background-repeat: repeat-x;
@@ -536,11 +536,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-negative:focus,
 .button-negative:link:focus,
@@ -564,11 +564,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-negative.insensitive,
 .button-negative:link.insensitive,
@@ -676,11 +676,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
   cursor: pointer;
   border: 1px solid #d0d0d0;
   background: #fff;
@@ -713,11 +713,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-white:focus,
 .button-white:link:focus,
@@ -741,11 +741,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-white.insensitive,
 .button-white:link.insensitive,
@@ -857,11 +857,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.1);
   background-repeat: repeat-x;
@@ -916,11 +916,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-sand:focus,
 .button-sand:link:focus,
@@ -944,11 +944,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .button-sand.insensitive,
 .button-sand:link.insensitive,
@@ -1126,11 +1126,11 @@ a img {
   border: 0;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
   background-color: #81bc2e;
   background-color: #659324;
   background-repeat: repeat-x;
@@ -1182,11 +1182,11 @@ a img {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px -1px 0px 0px rgba(0, 0, 0, 0.3), inset 0px 12px 24px 2px #38a9ed;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .download-button .download-link:focus,
 .download-button .download-link.focus {
@@ -1202,11 +1202,11 @@ a img {
   box-shadow: inset 0px 2px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 12px 24px 6px rgba(0, 0, 0, 0.2), inset 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all linear 0.25s;
-  -moz-transition: all linear 0.25s;
-  -o-transition: all linear 0.25s;
-  -ms-transition: all linear 0.25s;
-  transition: all linear 0.25s;
+  -webkit-transition: all, linear, 0.25s;
+  -moz-transition: all, linear, 0.25s;
+  -o-transition: all, linear, 0.25s;
+  -ms-transition: all, linear, 0.25s;
+  transition: all, linear, 0.25s;
 }
 .download-button .download-link.insensitive,
 .download-button .download-link.insensitive:hover,
@@ -1764,11 +1764,11 @@ input[type=text] {
   -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.5);
   -moz-box-shadow: 0 1px rgba(255, 255, 255, 0.5);
   box-shadow: 0 1px rgba(255, 255, 255, 0.5);
-  -webkit-transition: all linear 0.1s;
-  -moz-transition: all linear 0.1s;
-  -o-transition: all linear 0.1s;
-  -ms-transition: all linear 0.1s;
-  transition: all linear 0.1s;
+  -webkit-transition: all, linear, 0.1s;
+  -moz-transition: all, linear, 0.1s;
+  -o-transition: all, linear, 0.1s;
+  -ms-transition: all, linear, 0.1s;
+  transition: all, linear, 0.1s;
   line-height: 1.1;
 }
 textarea {
@@ -1784,11 +1784,11 @@ input.focus {
   -webkit-box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
   -moz-box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
   box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
-  -webkit-transition: all linear 0.1s;
-  -moz-transition: all linear 0.1s;
-  -o-transition: all linear 0.1s;
-  -ms-transition: all linear 0.1s;
-  transition: all linear 0.1s;
+  -webkit-transition: all, linear, 0.1s;
+  -moz-transition: all, linear, 0.1s;
+  -o-transition: all, linear, 0.1s;
+  -ms-transition: all, linear, 0.1s;
+  transition: all, linear, 0.1s;
 }
 select:focus {
   -webkit-box-shadow: 0 0 0 2px rgba(73, 173, 227, 0.4);
@@ -1805,11 +1805,11 @@ input.invalid {
   -webkit-box-shadow: 0 0 0 2px rgba(255, 80, 80, 0.4);
   -moz-box-shadow: 0 0 0 2px rgba(255, 80, 80, 0.4);
   box-shadow: 0 0 0 2px rgba(255, 80, 80, 0.4);
-  -webkit-transition: all linear 0.1s;
-  -moz-transition: all linear 0.1s;
-  -o-transition: all linear 0.1s;
-  -ms-transition: all linear 0.1s;
-  transition: all linear 0.1s;
+  -webkit-transition: all, linear, 0.1s;
+  -moz-transition: all, linear, 0.1s;
+  -o-transition: all, linear, 0.1s;
+  -ms-transition: all, linear, 0.1s;
+  transition: all, linear, 0.1s;
 }
 .fill-width {
   display: block;

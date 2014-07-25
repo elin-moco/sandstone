@@ -157,7 +157,8 @@
   box-shadow: @shadow;
 }
 
-.transition(@transition: all linear .25s) {
+.transition(@transition1: all linear .25s,...) {
+  @transition: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
   -webkit-transition: @transition;
   -moz-transition: @transition;
   -o-transition: @transition;
@@ -228,6 +229,14 @@
   -o-animation: @parameters;
   -ms-animation: @parameters;
   animation: @parameters;
+}
+
+.animation-delay(@animation-delay: 0s) {
+  -webkit-animation-delay: @animation-delay;
+  -moz-animation-delay: @animation-delay;
+  -o-animation-delay: @animation-delay;
+  -ms-animation-delay: @animation-delay;
+  animation-delay: @animation-delay;
 }
 
 .border-box() {
