@@ -370,7 +370,7 @@ var Tabzilla = (function (Tabzilla) {
                 <a href="//mozilla.com.tw/firefox/download/" title="下載 Mozilla Firefox 中文桌面版" tabindex="-1">Firefox 免費下載</a>\
               </li>\
               <li>\
-                <a href="//mozilla.com.tw/firefox/" title="下載 Mozilla Firefox 中文桌面版">Firefox 桌面版</a>\
+                <a href="//mozilla.com.tw/firefox/desktop/" title="下載 Mozilla Firefox 中文桌面版">Firefox 桌面版</a>\
               </li>\
               <li>\
                 <a href="//mozilla.com.tw/firefox/mobile/" title="Mozilla Firefox 行動版">Firefox 行動版</a>\
@@ -411,7 +411,7 @@ var Tabzilla = (function (Tabzilla) {
           <div>\
             <ul>\
               <li>\
-                <a href="http://firefox.club.tw/" title="Firefox 活力軍">Firefox 活力軍</a>\
+                <a href="http://firefox.club.tw/" title="Firefox 活力軍">Firefox 設計品</a>\
               </li>\
               <li>\
                 <a href="//mozilla.com.tw/community/student/" title="校園大使">校園大使</a>\
