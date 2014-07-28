@@ -157,8 +157,15 @@
   box-shadow: @shadow;
 }
 
-.transition(@transition1: all linear .25s,...) {
-  @transition: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
+.transition(@transition: all linear .25s) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  -ms-transition: @transition;
+  transition: @transition;
+}
+.transition-vararg(...) {
+  @transition: ~`"@{arguments}".replace(/[\[\]]/g, '')`;
   -webkit-transition: @transition;
   -moz-transition: @transition;
   -o-transition: @transition;
