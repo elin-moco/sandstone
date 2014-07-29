@@ -171,12 +171,14 @@
   -o-transition: @transition;
   -ms-transition: @transition;
   transition: @transition;
-
-//  -webkit-transition: @arguments;
-//  -moz-transition: @arguments;
-//  -o-transition: @arguments;
-//  -ms-transition: @arguments;
-//  transition: @arguments;
+}
+.transition-vararg-transform(...) {
+  @transition: ~`"@{arguments}".replace(/[\[\]]/g, '')`;
+  -webkit-transition: -webkit-transform @transition;
+  -moz-transition: -moz-transform @transition;
+  -o-transition: -o-transform @transition;
+  -ms-transition: -ms-transform @transition;
+  transition: transform @transition;
 }
 
 .transform(@transform: inherit) {
