@@ -383,6 +383,35 @@
     }
 }
 
+.download-button-aurora.download-button-small {
+    .download-link {
+        .download-title {
+            font-size: 13px;
+            font-style: italic;
+            span {
+                font-size: 18px;
+                font-style: normal;
+                margin-bottom: 0;
+                letter-spacing: normal;
+            }
+        }
+        .download-subtitle {
+            display: none;
+        }
+        .download-lang {
+            top: 50%;
+            margin-top: -1em;
+        }
+    }
+}
+
+.download-button-aurora.download-button-simple {
+    .download-link .download-subtitle {
+        // Don't hide the subtitle for Aurora if simple=True
+        display: block;
+    }
+}
+
 .download-button.download-button-beta.download-button-small .download-list .os_android,
 .download-button.download-button-aurora.download-button-small .download-list .os_android,
 .download-button.download-button-mobile.download-button-aurora.download-button-small,
@@ -448,6 +477,39 @@
     }
 }
 
+// Simple style (no icon, no links, only subtitle ("Free download") visible)
+.download-button.download-button-simple {
+    .download-link {
+        margin-left: 0;
+        width: 240px;
+        .download-content {
+            background-image: none;
+            padding: @baseLine (@baseLine * 2);
+            margin-left: 0;
+            margin-bottom: 0;
+            min-height: 0;
+            color: #fff;
+            text-align: center;
+        }
+        .download-title, .download-lang {
+            display: none;
+        }
+        .download-subtitle {
+            font-size: 20px;
+        }
+    }
+    &.download-button-small {
+        .download-link {
+            width: 210px;
+            .download-content {
+                padding: (@baseLine / 2) @baseLine;
+            }
+            .download-subtitle {
+                font-size: @largeFontSize;
+            }
+        }
+    }
+}
 
 // OS detection
 

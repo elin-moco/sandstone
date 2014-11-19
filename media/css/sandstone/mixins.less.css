@@ -1,5 +1,0 @@
-NameError: .clearfix is undefined in /home/elin/Srcs/bedrock/media/css/sandstone/mixins.less:159:2
-158   margin-left: @gridGutterWidth * -1;
-159   .clearfix();
-160 }
-

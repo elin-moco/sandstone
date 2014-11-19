@@ -1,6 +1,8 @@
 *.log
 *.pot
 *.pyc
+*.less.css
 local_settings.py
 settings/local.py
 media/js/sandstone/replace_urls.js
+.DS_Store

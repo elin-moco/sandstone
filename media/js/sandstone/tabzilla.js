@@ -411,7 +411,7 @@ var Tabzilla = (function (Tabzilla) {
           <div>\
             <ul>\
               <li>\
-                <a href="http://firefox.club.tw/" title="Firefox 活力軍">Firefox 設計品</a>\
+                <a href="http://firefox.club.tw/" title="Firefox 俱樂部">Firefox 設計品</a>\
               </li>\
               <li>\
                 <a href="//mozilla.com.tw/community/student/" title="校園大使">校園大使</a>\
