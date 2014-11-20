@@ -352,12 +352,12 @@ var Tabzilla = (function (Tabzilla) {
     var content = '<div id="tabzilla-panel" class="close-nav" tabindex="-1">\
   <div id="tabzilla-contents">\
     <div id="tabzilla-promo">\
-    <div id="tabzilla-promo-webwewant" class="snippet">\
-      <a href="https://webwewant.mozilla.org/?icn=tabz">\
-        <h4>你想要什麼樣的網路？</h4>\
-        <p>分享你的觀點</p>\
-      </a>\
-    </div><!-- end of promo-name -->\
+      <div id="tabzilla-promo-fxos" class="snippet">\
+        <a href="//mozilla.com.tw/firefox/os/">\
+          <h4>Firefox OS</h4>\
+          <p>瞭解 Firefox OS</p>\
+        </a>\
+      </div>\
     </div>\
     <!-- end of tabzilla-promo -->\
     <div id="tabzilla-nav">\
