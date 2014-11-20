@@ -260,6 +260,14 @@
   animation: @parameters;
 }
 
+.animation-delay(@animation-delay: 0s) {
+  -webkit-animation-delay: @animation-delay;
+  -moz-animation-delay: @animation-delay;
+  -o-animation-delay: @animation-delay;
+  -ms-animation-delay: @animation-delay;
+  animation-delay: @animation-delay;
+}
+
 .border-box() {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
