@@ -52,6 +52,11 @@
     font-family: "Open Sans",Arial,Helvetica,"Microsoft JhengHei","Apple LiGothic Medium",sans-serif;
 }
 
+.open-sans-italic() {
+    font-family: @baseFontFamily;
+    font-style: italic;
+}
+
 .open-sans-light() {
 //    font-family: 'Open Sans Light', sans-serif;
     font-family: "Open Sans",Arial,Helvetica,"Microsoft JhengHei","Apple LiGothic Medium",sans-serif;
@@ -99,6 +104,7 @@
 @gridRowWidthMobileWide:  (@gridColumnsMobileWide * @gridColumnWidthNarrow) + (@gridGutterWidth * (@gridColumnsMobileWide - 1));
 
 // Breakpoints for common devices
+@breakDesktopWide:        1400px;
 @breakDesktop:            1000px;
 @breakTablet:             760px;
 @breakMobileLandscape:    480px;
@@ -423,6 +429,35 @@
 .trailing-arrow() {
     &:after {
         content: " »"; /* nbsp raquo */
+    }
+}
+
+.leading-arrow() {
+    &:before {
+        content: "« "; /* laquo nbsp */
+        white-space: nowrap;
+    }
+}
+
+// Make a button look like an anchor
+.link-button() {
+    border: none;
+    background: transparent;
+    color: @linkBlue;
+    .font-size(@baseFontSize);
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    .open-sans();
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        color: darken(@linkBlue, 10%);
+    }
+
+    &:focus {
+        outline: 0;
     }
 }
 
