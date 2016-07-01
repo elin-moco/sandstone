@@ -352,12 +352,6 @@ var Tabzilla = (function (Tabzilla) {
     var content = '<div id="tabzilla-panel" class="close-nav" tabindex="-1">\
   <div id="tabzilla-contents">\
     <div id="tabzilla-promo">\
-      <div id="tabzilla-promo-fxos" class="snippet">\
-        <a href="//mozilla.com.tw/firefox/os/">\
-          <h4>Firefox OS</h4>\
-          <p>瞭解 Firefox OS</p>\
-        </a>\
-      </div>\
     </div>\
     <!-- end of tabzilla-promo -->\
     <div id="tabzilla-nav">\
@@ -383,25 +377,6 @@ var Tabzilla = (function (Tabzilla) {
               </li>\
               <li>\
                 <a href="https://support.mozilla.com/zh-TW/home" title="Firefox 說明文件、支援中心">支援中心</a>\
-              </li>\
-            </ul>\
-          </div>\
-        </li>\
-        <li class="sitemap">\
-          <h2>Firefox OS</h2>\
-          <div>\
-            <ul>\
-              <li>\
-                <a title="Firefox OS 詳細介紹" href="//mozilla.com.tw/firefox/os/" tabindex="-1">詳細介紹</a>\
-              </li>\
-              <li>\
-                <a title="Firefox OS 合作夥伴專區" href="//mozilla.com.tw/firefox/partners/" tabindex="-1">合作夥伴專區</a>\
-              </li>\
-              <li>\
-                <a title="Firefox OS 支援中心" href="//support.mozilla.org/products/firefox-os" tabindex="-1">支援中心</a>\
-              </li>\
-              <li>\
-                <a title="Firefox OS 常見問答集" href="//mozilla.com.tw/firefox/os/faq/" tabindex="-1">常見問答集</a>\
               </li>\
             </ul>\
           </div>\
